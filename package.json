@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "amp-snippets:toggle"
   },
-  "repository": "https://github.com/atom/amp-snippets",
+  "repository": "https://github.com/mattddowney/amp-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
