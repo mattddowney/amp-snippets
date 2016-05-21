@@ -1,0 +1,12 @@
+'.text.html':
+  'amp mustache':
+    'prefix': 'amp-mustache'
+    'body': """
+    <template type="amp-mustache">
+        ${1:Hello {{world}}!}
+    </template>$0
+    """
+
+  'amp mustache script tag':
+    'prefix': 'amp-mustache-script'
+    'body': '<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>$0'

@@ -1,0 +1,10 @@
+'.text.html':
+  'amp ad':
+    'prefix': 'amp-adsense'
+    'body': """
+    <amp-ad width=$1 height=$2
+        type="adsense"
+        data-ad-client="$3"
+        data-ad-slot="$4">
+    </amp-ad>$0
+    """

@@ -1,0 +1,12 @@
+'.text.html':
+  'amp carousel':
+    'prefix': 'amp-carousel'
+    'body': """
+    <amp-carousel width=${1:300} height=${2:400}>
+        $1
+    </amp-carousel>$0
+    """
+
+  'amp carousel script tag':
+    'prefix': 'amp-carousel-script'
+    'body': '<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>$0'

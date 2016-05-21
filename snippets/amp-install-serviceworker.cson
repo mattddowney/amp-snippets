@@ -1,0 +1,13 @@
+'.text.html':
+  'amp install serviceworker':
+    'prefix': 'amp-install-serviceworker'
+    'body': """
+    <amp-install-serviceworker
+        src="${1:https://www.your-domain.com/serviceworker.js}"
+        layout="nodisplay">
+    </amp-install-serviceworker>$0
+    """
+
+  'amp install serviceworker script tag':
+    'prefix': 'amp-install-serviceworker-script'
+    'body': '<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>$0'

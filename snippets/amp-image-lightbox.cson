@@ -1,0 +1,17 @@
+'.text.html':
+  'amp image lightbox':
+    'prefix': 'amp-image-lightbox'
+    'body': """
+    <amp-img
+        on="tap:${1:lightboxId}"
+        role="button"
+        tabindex="0"
+        src="${2:image}"
+        width=${3:200}
+        height=${4:100}></amp-img>
+    <amp-image-lightbox id="${1:lightboxId}" layout="nodisplay"></amp-image-lightbox>$0
+    """
+
+  'amp image lightbox script tag':
+    'prefix': 'amp-image-lightbox-script'
+    'body': '<script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>$0'

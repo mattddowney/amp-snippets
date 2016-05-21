@@ -1,0 +1,20 @@
+'.text.html':
+  'amp list':
+    'prefix': 'amp-list'
+    'body': """
+    <amp-list src="${1:https://data.com/articles.json?ref=CANONICAL_URL}"
+        width=300 height=200 layout=responsive>
+        <template type="amp-mustache">
+            <div>
+                Lorem ipsum dolor sit amet, has nisl nihil convenire et, vim at aeque inermis reprehendunt.
+            </div>
+        </template>
+        <div overflow role=button aria-label="Show more" class="list-overflow">
+            Show more
+        </div>
+    </amp-list>$0
+    """
+
+  'amp list script tag':
+    'prefix': 'amp-list-script'
+    'body': '<script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>$0'

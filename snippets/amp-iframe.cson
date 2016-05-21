@@ -1,0 +1,15 @@
+'.text.html':
+  'amp iframe':
+    'prefix': 'amp-iframe'
+    'body': """
+    <amp-iframe width=${1:300} height=${2:300}
+        sandbox="allow-scripts allow-same-origin"
+        layout="responsive"
+        frameborder="0"
+        src="${3:https://foo.com/iframe}">
+    </amp-iframe>$0
+    """
+
+  'amp iframe script tag':
+    'prefix': 'amp-iframe-script'
+    'body': '<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>$0'

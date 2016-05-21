@@ -1,0 +1,12 @@
+'.text.html':
+  'amp animated image':
+    'prefix': 'amp-anim'
+    'body': """
+    <amp-anim width=${1:400} height=${2:300} src="$3">
+        <amp-img placeholder width=${1:400} height=${2:300} src="$4"></amp-img>
+    </amp-anim>$0
+    """
+
+  'amp animated image script tag':
+    'prefix': 'amp-anim-script'
+    'body': '<script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>$0'

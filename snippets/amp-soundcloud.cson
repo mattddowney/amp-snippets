@@ -1,0 +1,13 @@
+'.text.html':
+  'amp soundcloud':
+    'prefix': 'amp-soundcloud'
+    'body': """
+    <amp-soundcloud height=${1:657}
+        layout="fixed-height"
+        data-trackid="${2:243169232}"
+        data-visual="true"></amp-soundcloud>$0
+    """
+
+  'amp soundcloud script tag':
+    'prefix': 'amp-soundcloud-script'
+    'body': '<script async custom-element="amp-soundcloud" src="https://cdn.ampproject.org/v0/amp-soundcloud-0.1.js"></script>$0'

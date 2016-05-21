@@ -1,0 +1,13 @@
+'.text.html':
+  'amp youtube':
+    'prefix': 'amp-youtube'
+    'body': """
+    <amp-youtube
+        data-videoid="${1:mGENRKrdoGY}"
+        layout="responsive"
+        width="480" height="270"></amp-youtube>$0
+    """
+
+  'amp youtube script tag':
+    'prefix': 'amp-youtube-script'
+    'body': '<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>$0'

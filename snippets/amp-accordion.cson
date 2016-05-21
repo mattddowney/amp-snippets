@@ -1,0 +1,25 @@
+'.text.html':
+  'amp accordion':
+    'prefix': 'amp-accordion'
+    'body': """
+    <amp-accordion>
+        <section expanded>
+            <h2>${1:Heading}</h2>
+            <p>${2:Content}</p>
+        </section>
+        $3
+    </amp-accordion>$0
+    """
+
+  'amp accordion script tag':
+    'prefix': 'amp-accordion-script'
+    'body': '<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>$0'
+
+  'amp accordion section':
+    'prefix': 'amp-accordion-section'
+    'body': """
+    <section>
+        <h1>${1:Heading}</h1>
+        <p>${2:Content}</p>
+    </section>$0
+    """

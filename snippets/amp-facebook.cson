@@ -1,0 +1,23 @@
+'.text.html':
+  'amp facebook post':
+    'prefix': 'amp-facebook-post'
+    'body': """
+    <amp-facebook width=${1:486} height=${2:657}
+        layout="responsive"
+        data-href="${3:https://www.facebook.com/zuck/posts/10102593740125791}">
+    </amp-facebook>$0
+    """
+
+  'amp facebook script tag':
+    'prefix': 'amp-facebook-script'
+    'body': '<script async custom-element="amp-facebook" src="https://cdn.ampproject.org/v0/amp-facebook-0.1.js"></script>$0'
+
+  'amp facebook video':
+    'prefix': 'amp-facebook-video'
+    'body': """
+    <amp-facebook width=${1:552} height=${2:574}
+        layout="responsive"
+        data-embed-as="video"
+        data-href="${3:https://www.facebook.com/zuck/videos/10102509264909801/}">
+    </amp-facebook>$0
+    """

@@ -1,0 +1,12 @@
+'.text.html':
+  'amp fit text':
+    'prefix': 'amp-fit-text'
+    'body': """
+    <amp-fit-text width=${1:300} height=${2:200} layout="responsive" max-font-size=${3:52}>
+        ${4:Lorem ipsum dolor sit amet, has nisl nihil convenire et, vim at aeque inermis reprehendunt.}
+    </amp-fit-text>$0
+    """
+
+  'amp fit text script tag':
+    'prefix': 'amp-fit-text-script'
+    'body': '<script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>$0'
