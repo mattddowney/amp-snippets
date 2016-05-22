@@ -1,14 +1,14 @@
 {
   "name": "amp-snippets",
   "main": "./lib/amp-snippets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Snippets for AMP HTML",
   "keywords": [
-      "amp",
-      "amp html",
-      "amp snippets",
-      "snippets",
-      "accelerated mobile pages"
+    "amp",
+    "amp html",
+    "amp snippets",
+    "snippets",
+    "accelerated mobile pages"
   ],
   "activationCommands": {
     "atom-workspace": "amp-snippets:toggle"
