@@ -3,7 +3,13 @@
   "main": "./lib/amp-snippets",
   "version": "0.1.0",
   "description": "Snippets for AMP HTML",
-  "keywords": [],
+  "keywords": [
+      "amp",
+      "amp html",
+      "amp snippets",
+      "snippets",
+      "accelerated mobile pages"
+  ],
   "activationCommands": {
     "atom-workspace": "amp-snippets:toggle"
   },
